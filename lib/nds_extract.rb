@@ -28,8 +28,9 @@ def movie_with_director_name(director_name, movie_data)
     :studio => movie_data[:studio],
     :director_name => director_name
   }
-  pp movie_with_director_name
+  
 end
+pp movie_with_director_name
 
 
 # Your code after this point

@@ -28,9 +28,11 @@ def movie_with_director_name(director_name, movie_data)
     :studio => movie_data[:studio],
     :director_name => director_name
   }
-  puts  movie_with_director_name
 end
 
+def test (movie_with_director_name)
+  pp movie_with_director_name
+end
 
 
 # Your code after this point
